@@ -5,14 +5,14 @@ import {
   renderer,
   addResize,
   camera,
-} from "../modules/renderer.js";
+} from "./renderer.js";
 import { Volume } from "./Volume.js";
 import { generatePerlin } from "./noise.js";
 import { Post } from "./post.js";
-import { randomInRange } from "../modules/Maf.js";
-import { Mesh, PlaneBufferGeometry } from "../third_party/three.module.js";
+import { randomInRange } from "./Maf.js";
+import { Mesh, PlaneBufferGeometry } from "./three.module.js";
 import { FloorMaterial } from "./FloorMaterial.js";
-// import { capture } from "../modules/capture.js";
+
 
 const post = new Post(renderer);
 
