@@ -2,9 +2,9 @@ import {
   Color,
   GLSL3,
   RawShaderMaterial,
-} from "../third_party/three.module.js";
-import { shader as vertexShader } from "../shaders/ortho.js";
-import { shader as noise } from "../shaders/noise.js";
+} from "./three.module.js";
+import { shader as vertexShader } from "./shaders/ortho.js";
+import { shader as noise } from "./shaders/noise.js";
 
 const fragmentShader = `precision highp float;
 

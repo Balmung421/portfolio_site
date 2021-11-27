@@ -1,5 +1,5 @@
-import { perlin3 } from "../third_party/perlin.js";
-import { Vector3 } from "../third_party/three.module.js";
+import { perlin3 } from "./perlin.js";
+import { Vector3 } from "./three.module.js";
 
 function perlin(x, y, z) {
   return 0.5 + 0.5 * perlin3(x, y, z);
