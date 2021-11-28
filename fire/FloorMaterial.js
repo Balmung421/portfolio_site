@@ -4,7 +4,7 @@ import {
   RawShaderMaterial,
 } from "./three.module.js";
 import { shader as vertexShader } from "./ortho.js";
-import { shader as noise } from "./noise.js";
+import { shader as noise } from "./noise-shader.js";
 
 const fragmentShader = `precision highp float;
 
