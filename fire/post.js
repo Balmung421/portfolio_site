@@ -19,7 +19,7 @@ import { getFBO } from "./fbo.js";
 import { shader as orthoVertexShader } from "./ortho.js";
 import { ShaderPass } from "./ShaderPass.js";
 import { shader as vignette } from "./vignette.js";
-import { shader as noise } from "noise.js";
+import { shader as noise } from "./noise-shader.js";
 import { shader as screen } from "./screen.js";
 // import { shader as fxaa } from "../shaders/fxaa.js";
 // import { shader as softLight } from "../shaders/soft-light.js";
