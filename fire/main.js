@@ -5,13 +5,13 @@ import {
   renderer,
   addResize,
   camera,
-} from "./renderer.js";
-import { Volume } from "./Volume.js";
-import { generatePerlin } from "./noise.js";
-import { Post } from "./post.js";
-import { randomInRange } from "./Maf.js";
-import { Mesh, PlaneBufferGeometry } from "./three.module.js";
-import { FloorMaterial } from "./FloorMaterial.js";
+} from "renderer.js";
+import { Volume } from "Volume.js";
+import { generatePerlin } from "noise.js";
+import { Post } from "post.js";
+import { randomInRange } from "Maf.js";
+import { Mesh, PlaneBufferGeometry } from "three.module.js";
+import { FloorMaterial } from "FloorMaterial.js";
 
 
 const post = new Post(renderer);

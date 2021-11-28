@@ -3,10 +3,10 @@ import {
   Vector2,
   GLSL3,
   RGBAFormat,
-} from "./three.module.js";
-import { ShaderPingPongPass } from "./ShaderPingPongPass.js";
-import { shader as orthoVs } from "./ortho.js";
-import { shader as blurFs } from "./blur.js";
+} from "three.module.js";
+import { ShaderPingPongPass } from "ShaderPingPongPass.js";
+import { shader as orthoVs } from "ortho.js";
+import { shader as blurFs } from "blur.js";
 
 const blurShader = new RawShaderMaterial({
   uniforms: {

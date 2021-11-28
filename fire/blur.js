@@ -1,4 +1,4 @@
-import { blur5, blur9, blur13 } from "./fast-separable-gaussian-blur.js";
+import { blur5, blur9, blur13 } from "fast-separable-gaussian-blur.js";
 // import { settings } from "../js/settings.js";
 
 // let blurFn = blur13;

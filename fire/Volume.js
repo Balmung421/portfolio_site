@@ -10,7 +10,7 @@ import {
   BackSide,
   CylinderBufferGeometry,
   Color,
-} from "./three.module.js";
+} from "three.module.js";
 
 const vertexShader = `#version 300 es
 in vec3 position;
