@@ -108,3 +108,14 @@ addResize(myResize);
 
 resize();
 render();
+
+
+// User cannot change fate and reload the page
+  window.onbeforeunload = function(e) 
+{
+    // Turning off the event
+      e.preventDefault();
+      e.returnValue = 'Fate has decided your flames; you cannot refresh.';
+}
+
+
