@@ -54,13 +54,13 @@ function randomize() {
 
 let running = true;
 
-document.querySelector("#pauseBtn").addEventListener("click", (e) => {
-  running = !running;
-});
+//document.querySelector("#pauseBtn").addEventListener("click", (e) => {
+  //running = !running;
+//});
 
-document.querySelector("#randomizeBtn").addEventListener("click", (e) => {
-  randomize();
-});
+//document.querySelector("#randomizeBtn").addEventListener("click", (e) => {
+  //randomize();
+//});
 
 window.addEventListener("keydown", (e) => {
   if (e.code === "KeyR") {
