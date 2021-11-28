@@ -5,7 +5,7 @@ import {
     RGBAFormat,
     UnsignedByteType,
     WebGLMultisampleRenderTarget,
-  } from "three.module.js";
+  } from "./three.module.js";
   
   function getFBO(w, h, options = {}, antialiased = false) {
     if (antialiased) {

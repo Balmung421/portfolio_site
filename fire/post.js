@@ -14,18 +14,18 @@ import {
   DataTexture3D,
   RedFormat,
   FloatType,
-} from "three.module.js";
-import { getFBO } from "fbo.js";
-import { shader as orthoVertexShader } from "ortho.js";
-import { ShaderPass } from "ShaderPass.js";
-import { shader as vignette } from "vignette.js";
-import { shader as noise } from "noise.js";
-import { shader as screen } from "screen.js";
+} from "./three.module.js";
+import { getFBO } from "./fbo.js";
+import { shader as orthoVertexShader } from "./ortho.js";
+import { ShaderPass } from "./ShaderPass.js";
+import { shader as vignette } from "./vignette.js";
+import { shader as noise } from "./noise.js";
+import { shader as screen } from "./screen.js";
 // import { shader as fxaa } from "../shaders/fxaa.js";
 // import { shader as softLight } from "../shaders/soft-light.js";
 // import { shader as colorDodge } from "../shaders/color-dodge.js";
 // import { shader as rgbShift } from "../shaders/rgb-shift.js";
-import { BloomPass } from "bloomPass.js";
+import { BloomPass } from "./bloomPass.js";
 
 const finalFragmentShader = `
 precision highp float;

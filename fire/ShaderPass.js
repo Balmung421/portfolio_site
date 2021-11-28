@@ -3,8 +3,8 @@ import {
     Scene,
     Mesh,
     PlaneBufferGeometry,
-  } from "three.module.js";
-  import { getFBO } from "fbo.js";
+  } from "./three.module.js";
+  import { getFBO } from "./fbo.js";
   
   class ShaderPass {
     constructor(shader, options = {}, antialiased) {
